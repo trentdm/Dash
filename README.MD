@@ -1,6 +1,8 @@
 ﻿#Dash#
 Dash is a webapp For aggregating data from a google spreadsheet, fed by google forms, and displaying the information in a useful format.
 
+![alt tag](https://pbs.twimg.com/media/B_MUbcvUwAA-cAj.png:large)
+
 ##Intent##
 Dash is a small personal project, designed to help aggregate knowledge collected by dozens of individuals and their experiences.
 
