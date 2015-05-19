@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dash", "Dash\Dash.csproj", "{98C6927B-0F18-4165-B959-9750C95D412C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dash.Test", "Dash.Test\Dash.Test.csproj", "{5CFA0288-53DA-4AE7-AB39-60B03B3B1F6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98C6927B-0F18-4165-B959-9750C95D412C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C6927B-0F18-4165-B959-9750C95D412C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C6927B-0F18-4165-B959-9750C95D412C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98C6927B-0F18-4165-B959-9750C95D412C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CFA0288-53DA-4AE7-AB39-60B03B3B1F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CFA0288-53DA-4AE7-AB39-60B03B3B1F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CFA0288-53DA-4AE7-AB39-60B03B3B1F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CFA0288-53DA-4AE7-AB39-60B03B3B1F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

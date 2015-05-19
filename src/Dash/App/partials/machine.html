@@ -1,0 +1,27 @@
+﻿<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+            <ul class="nav nav-sidebar">
+                <li ng-repeat="machine in machines" ng-class="{active: isActiveMachine(machine)}">
+                    <a href="" ng-click="selectMachine($index)">{{machine.name}}</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2">
+            <h1 class="page-header">Machine Status</h1>
+            <div class="row">
+                <div class="col-md-9">
+                    <div id="chart" style="min-width: 700px; min-height: 600px"></div>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled">
+                        <li>Name: {{currentMachine.name}}</li>
+                        <li>Successes: {{currentMachine.successes}}</li>
+                        <li>Failures: {{currentMachine.failures}}</li>
+                        <li>SuccessRatio: {{currentMachine.successRatio}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

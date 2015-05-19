@@ -1,0 +1,99 @@
+.navbar-fixed-top {
+    background-color: white;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.alert-container {
+    position: fixed; 
+    z-index: 3;
+    top: 85px;
+    right: 8px;
+    opacity: 0.9;
+}
+
+.alert {
+    min-width: 250px;
+}
+
+.animate.ng-enter {
+    -webkit-transition: 1s linear all;
+    transition: 1s linear all;
+    opacity: 0;
+}
+.animate.ng-enter-active {
+    opacity: 1;
+}
+.animate.ng-leave {
+    -webkit-transition: 1s linear all;
+    transition: 1s linear all;
+}
+.animate.ng-leave-active {
+    opacity: 0;
+}
+
+.cursor-pointer { cursor: pointer; }
+.cursor-croshair { cursor: crosshair; }
+.cursor-eresize { cursor: e-resize; }
+.cursor-move { cursor: move; }
+
+.register {
+    border: 0;
+    border-right: 1px solid #e0e0e0;
+}
+
+.glyphicon-none:before {
+    content: "\2122";
+    color: transparent !important;
+}
+
+[ng\:cloak],[ng-cloak],.ng-cloak{display:none !important}
+
+/*d3 graphs*/
+.chart rect {
+  fill: steelblue;
+}
+
+.chart text {
+  fill: #333;
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+.bar {
+
+  fill: steelblue;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.dash-main {
+    margin-top: 12px;
+}
+
+.nav li {
+    margin-top: 10px
+}

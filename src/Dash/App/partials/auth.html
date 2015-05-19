@@ -1,0 +1,37 @@
+﻿<div class="modal-body">
+    <div class="row">
+        <div class="col-lg-6 register">
+            <h3>Register</h3>
+            <form class="navbar-form" role="register">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="text" class="form-control" ng-model="registerName" placeholder="Username"/>
+                        <input type="password" class="form-control" ng-model="registerPass" placeholder="Password" />
+                        <input type="email" class="form-control" ng-model="registerEmail" placeholder="Email"/>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" ng-click="register(registerName, registerPass, registerEmail)">Register</button>
+                    <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-6">
+            <h3>Sign in</h3>
+            <form class="navbar-form" role="signin">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="text" class="form-control" ng-model="name" placeholder="Username" autofocus/>
+                        <input type="password" class="form-control" ng-model="pass" placeholder="Password" />
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" ng-click="signin(name, pass)">Sign in</button>
+                    <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
